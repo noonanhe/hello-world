@@ -49,7 +49,7 @@ projects:
 topics:
   - name: JavaScript
     web_url: https://www.javascript.com/
-    image_url: https://github.com/noonanhe/noonanhe.github.io/blob/master/images/javascript-logo.png
+    image_url: images/octocat.png
 
   - name: Web design
 
