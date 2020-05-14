@@ -47,9 +47,9 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: JavaScript
+    web_url: https://www.javascript.com/
+    image_url: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ateamindia.com%2Ftag%2Ftop-javascript-developers%2F&psig=AOvVaw0QDXtt1nxi652ABI_t-lgl&ust=1589559241203000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIipjObfs-kCFQAAAAAdAAAAABAE
 
   - name: Web design
 
