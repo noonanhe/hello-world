@@ -52,6 +52,7 @@ topics:
     image_url: images/javascript-logo.png
 
   - name: Web design
+    image_url: images/web design.jpg
 
   - name: Sass
     web_url: https://github.com/topics/sass
