@@ -52,8 +52,9 @@ topics:
     image_url: images/javascript-logo.png
 
   - name: Web design
+    web_url: https://en.wikipedia.org/wiki/Web_design
     image_url: images/web design.jpg
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Machine Learning
+    web_url: https://en.wikipedia.org/wiki/Machine_learning
+    image_url: images/machine learning.png
