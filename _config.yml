@@ -58,3 +58,5 @@ topics:
   - name: Machine Learning
     web_url: https://en.wikipedia.org/wiki/Machine_learning
     image_url: images/machine learning.png
+
+resume: true
