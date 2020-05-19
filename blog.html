@@ -6,7 +6,7 @@ published: true
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Articles I've written. 
   <a href = "/blog" target="_self">My blog </a></p>
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
-  {% for post in {{site.posts}} limit: 6 %}
+  {% for post in site.posts%}
     <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
       {% include post-card.html %}
     </div>
