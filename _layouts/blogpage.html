@@ -23,7 +23,6 @@
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
             <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
             <h1 class="f00-light lh-condensed mb-5" style="text-align:center;">{{ page.title }}</h1>
-             {{content}}
                 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
                   {% for post in site.posts %}
                     <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
