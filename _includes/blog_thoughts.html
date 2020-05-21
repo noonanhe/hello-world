@@ -10,7 +10,7 @@
           </h1>
        </div>
        <div class="text-gray mb-2 ws-normal">{{ post.date | date: "%b %d, %Y"}}</div>
-        {{ post.content | truncatewords: 20 }}
+        <div class="text-gray mb-2 ws-normal"> {{ post.content | truncatewords: 20 }} </div>
       </div>
     </div>
   {% endfor %}
