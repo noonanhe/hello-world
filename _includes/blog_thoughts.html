@@ -8,10 +8,10 @@
               {{ post.title }}
             </a>
           </h1>
-        </div>
+       </div>
        <div class="text-gray mb-2 ws-normal">{{ post.date | date: "%b %d, %Y"}}</div>
         {{ post.content | truncatewords: 20 }}
-       </div>
+      </div>
     </div>
   {% endfor %}
 </div>
