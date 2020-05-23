@@ -73,3 +73,10 @@ resume: true
 # https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
 # staticman_url: https://${bridge_app_name}.herokuapp.com/v2/entry/${github-username}/${blog-repo}/master/comments
 staticman_url: https://staticman-comments.herokuapp.com/v2/entry/noonanhe/noonanhe.gitub.io/master/comments
+
+# reCaptcha configuration info: the exact same site key and *encrypted* secret that you used in staticman.yml
+# I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
+# it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
+reCaptcha:
+  siteKey: 6Lc8VfsUAAAAAG9ZSsv6EcKYaohGt4NT6IPSwh4M
+  secret: cbrCO/qUxmozMg65UFkjTPpSA908ThMAhLQZBdEkocciZHnrN5A72Cl81ddriq8qkWofWxiRWOywo3yOQNsXMR+JYxGEnglIQ/H3yzaARWtTLWaFGiHMnsLdHQFS+Rd/B26zrUZg9cY6St8QVDfc7sOqcx0/iTuzk5oYJsC93as=
