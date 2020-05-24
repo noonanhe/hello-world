@@ -45,6 +45,9 @@
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
       {{ post_body }}
     </div>
+    {% if page.comments == true %}
+      {% include comments.html %}
+    {% endif %}
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -64,6 +67,9 @@
         </div>
       </div>
     </div>
+    {% if page.comments == true %}
+      {% include comments.html %}
+    {% endif %}
   </div>
 {% endif %}
 
