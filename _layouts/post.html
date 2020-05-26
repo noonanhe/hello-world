@@ -63,15 +63,16 @@
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {{ post_body }}
-            {% if page.comments == true %}
-              <div class="d-flex flex-wrap flex-items-center d-sm-block float-sm-bottom border rounded-2 bg-white p-3 mb-5 ml-md-5">
-                {% include comments.html %}
-              </div>
-            {% endif %}
+            
           </div>
         </div>
       </div>
     </div>
+      {% if page.comments == true %}
+        <div class="d-flex flex-wrap flex-items-center d-sm-block float-sm-bottom border rounded-2 bg-white p-3 mb-5 ml-md-5">
+          {% include comments.html %}
+        </div>
+      {% endif %}
   </div>
 {% endif %}
 
