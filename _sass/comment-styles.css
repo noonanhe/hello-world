@@ -29,7 +29,7 @@ fieldset {
     width: 420px;
     max-width: 100%;
     padding: 0.5rem 0;
-    color: black
+    color: $grey-color
 }
 
 .hp {
