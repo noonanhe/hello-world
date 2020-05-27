@@ -8,9 +8,9 @@
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
   <fieldset>
-  <div class="textfield col-md-7 col-lg-8">
+  <div class="textfield">
     <label for="comment-form-message"><h2>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;">(cancel reply)</a></small></h2>
-      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message"></textarea>
+      <textarea class="textfield__input col-md-7 col-lg-8" name="fields[message]" type="text" id="comment-form-message"></textarea>
     </label>
   </div>
   </fieldset>
