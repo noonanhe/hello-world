@@ -64,7 +64,7 @@
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {{ post_body }}
             {% if page.comments == true %}
-            <div class="text-gray-dark d-flex flex-wrap d-sm-block float-sm-bottom border rounded-2 bg-white">
+            <div class="text-gray-dark d-flex d-sm-block float-sm-bottom border rounded-2 bg-white p-3">
                {% include comments.html %}
             </div>
             {% endif %}
