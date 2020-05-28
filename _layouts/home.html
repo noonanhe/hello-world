@@ -3,7 +3,11 @@
 {% if site.layout == 'stacked' %}
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=true %}
-
+    {%if site.resume %}
+        <a href=https://noonanhe.github.io/resume>
+          <img src=images/resume2.jpg style="width80px;height:80px;border:0;">
+        </a>
+    {% endif %}
     <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
@@ -15,6 +19,12 @@
     {% if site.topics %}
       <div class="my-6">
         {% include interests.html %}
+      </div>
+    {% endif %}
+    
+    {% if site.podcasts %}
+      <div class="my-6">
+         {% include podcasts.html %}
       </div>
     {% endif %}
 
@@ -48,6 +58,10 @@
 
         {% if site.topics %}
           {% include interests.html %}
+        {% endif %}
+        
+        {% if site.podcasts %}
+          {% include podcasts.html %}
         {% endif %}
 
         {% unless posts_total == 0 %}
