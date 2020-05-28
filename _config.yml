@@ -60,6 +60,11 @@ topics:
     web_url: https://en.wikipedia.org/wiki/Machine_learning
     image_url: images/machine learning.png
 
+podcasts:
+  -name: JavaScript
+   web_url: 
+   image_url:
+
 resume: true
 
 # The URL for the staticman API bridge endpoint
