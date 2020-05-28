@@ -61,9 +61,9 @@ topics:
     image_url: images/machine learning.png
 
 podcasts:
-  -name: JavaScript
-   web_url: 
-   image_url:
+  - name: The Daily
+    web_url: 
+    image_url:
 
 resume: true
 
