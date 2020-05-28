@@ -64,7 +64,12 @@ podcasts:
   - name: The Daily
     web_url: https://www.nytimes.com/column/the-daily
     image_url: images/the_daily.png
-    description: A podcast by the New York Times that provides 20-30 minute investigations into current news stories. 
+    description: A podcast by the New York Times that provides 20-30 minute investigations into current news stories.
+    
+  - name: My Favorite Murder
+    web_url: https://myfavoritemurder.com
+    image_url: images/my_fave_murder.png
+    description: A True Crime Podcast where the 2 hilarious hosts cover murder, cult, and other crime stories.
 
 resume: true
 
