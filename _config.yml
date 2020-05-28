@@ -64,6 +64,7 @@ podcasts:
   - name: The Daily
     web_url: https://www.nytimes.com/column/the-daily
     image_url: images/the_daily.png
+    description: A podcast by the New York Times that provides 20-30 minute investigations into current news stories. 
 
 resume: true
 
