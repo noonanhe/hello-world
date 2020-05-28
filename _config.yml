@@ -95,5 +95,6 @@ staticman_url: https://staticman-comments.herokuapp.com/v2/entry/noonanhe/noonan
 # I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
 # it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
 reCaptcha:
+  enabled: true
   siteKey: 6Lc8VfsUAAAAAG9ZSsv6EcKYaohGt4NT6IPSwh4M
   secret: cbrCO/qUxmozMg65UFkjTPpSA908ThMAhLQZBdEkocciZHnrN5A72Cl81ddriq8qkWofWxiRWOywo3yOQNsXMR+JYxGEnglIQ/H3yzaARWtTLWaFGiHMnsLdHQFS+Rd/B26zrUZg9cY6St8QVDfc7sOqcx0/iTuzk5oYJsC93as=
