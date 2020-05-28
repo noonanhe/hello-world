@@ -62,8 +62,8 @@ topics:
 
 podcasts:
   - name: The Daily
-    web_url: 
-    image_url:
+    web_url: https://www.nytimes.com/column/the-daily
+    image_url: images/The Daily.jpeg
 
 resume: true
 
