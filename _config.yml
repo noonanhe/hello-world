@@ -70,6 +70,11 @@ podcasts:
     web_url: https://myfavoritemurder.com
     image_url: images/my_fave_murder.png
     description: A True Crime Podcast where the 2 hilarious hosts cover murder, cult, and other crime stories.
+    
+  - name: Business Wars
+    web_url: https://wondery.com/shows/business-wars
+    image_url: images/business_wars.png
+    description: This podcast does little mini series of about 6-7 episodes covering the histories of some of today's biggest corporate rivalries. 
 
 resume: true
 
