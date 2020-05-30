@@ -36,11 +36,11 @@
        <figcaption> Listen to me reading the post:</figcaption>
         <audio
                controls
-               src="{{ page.audio_url }}">
+               src="{{site.url}}{{ page.audio_url }}">
           Your browser does not support the <code>audio</code> element.
         </audio>
     </figure>
-    <p>{{ page.audio_url }}</p>
+    <p>{{site.url}}{{ page.audio_url }}</p>
   {% endif %}
   <div class="article">
     {{ content }}
