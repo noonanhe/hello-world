@@ -1,7 +1,5 @@
 {% include header.html %}
 
-{% capture post_body %}
-
   {% if page.audio == true %}
     <figure> 
       <figcaption> Listen to me reading the post:</figcaption>
@@ -12,6 +10,8 @@
         </audio>
     </figure>
   {% endif %}
+
+{% capture post_body %}
 
   {% if site.social_media %}
     {% assign shareable_social_media = '' | split: ',' %}
