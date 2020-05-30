@@ -33,18 +33,7 @@
    {% endif %}
 
   
-  {% if page.audio == true %}
-    <div class="d-flex flex-wrap flex-items-top mx-auto">
-      <figure> 
-        <figcaption> Listen to me reading the post:</figcaption>
-          <audio
-               controls
-               src="{{ page.audio_url }}">
-          Your browser does not support the <code>audio</code> element.
-          </audio>
-      </figure>
-    </div>
-  {% endif %}
+
   <div class="article">
     {{ content }}
   </div> 
@@ -91,6 +80,18 @@
             <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/blog' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Blog</a></p>
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
+              {% if page.audio == true %}
+              <div class="d-flex flex-wrap flex-items-top mx-auto">
+              <figure> 
+              <figcaption> Listen to me reading the post:</figcaption>
+              <audio
+               controls
+               src="{{ page.audio_url }}">
+          Your browser does not support the <code>audio</code> element.
+              </audio>
+              </figure>
+              </div>
+              {% endif %}
             {{ post_body }}
 
           </div>
