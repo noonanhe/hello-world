@@ -81,7 +81,6 @@
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
               {% if page.audio == true %}
-              <div class="d-flex flex-wrap flex-items-top mx-auto">
               <figure> 
               <figcaption> Listen to me reading the post:</figcaption>
               <audio
@@ -90,7 +89,6 @@
           Your browser does not support the <code>audio</code> element.
               </audio>
               </figure>
-              </div>
               {% endif %}
             {{ post_body }}
 
