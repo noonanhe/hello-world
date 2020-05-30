@@ -6,3 +6,5 @@ audio_url: _data/audio/Coronavirus-Blessings.mp3
 ---
 
 I'm experimenting with adding a blog to my website. This is my first blog post :)
+
+[audio](/_data/audio/Coronavirus-Blessings.mp3)
