@@ -30,9 +30,21 @@
       </div>
     {% endif %}
   {% endif %}
+  
+  {% if page.audio == true %}
+    <figure> 
+       <figcaption> Listen to me reading the post:</figcaption>
+        <audio
+               controls
+               src={{ page.audio_url }}>
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+    </figure>
+  {% endif %}
   <div class="article">
     {{ content }}
   </div>
+
   {% if page.comments == true %}
     <div class="col-md-6 col-lg-7 col-xl-8 text-gray-dark d-flex flex-wrap d-sm-block float-sm-bottom border rounded-2 bg-white p-3">
       {% include comments.html %}
