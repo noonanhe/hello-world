@@ -93,12 +93,12 @@
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {% if page.audio == true %}
             <figure> 
-              <figcaption> Listen to me reading the post:</figcaption>
-                <audio
-                    controls
-                    src="{{ page.audio_url }}">
-                    Your browser does not support the <code>audio</code> element.
-                </audio>
+            <figcaption> Listen to me reading the post:</figcaption>
+            <audio
+                controls
+                src="{{ page.audio_url }}">
+                Your browser does not support the <code>audio</code> element.
+            </audio>
             </figure>
             {% endif %}
             {{ post_body }}
