@@ -32,14 +32,16 @@
   {% endif %}
   
   {% if page.audio == true %}
-    <figure> 
-       <figcaption> Listen to me reading the post:</figcaption>
-        <audio
+    <div class="d-flex flex-wrap flex-items-center d-sm-block float-sm-right p-3 mb-5 ml-md-5">
+      <figure> 
+        <figcaption> Listen to me reading the post:</figcaption>
+          <audio
                controls
                src="{{ page.audio_url }}">
           Your browser does not support the <code>audio</code> element.
-        </audio>
-    </figure>
+          </audio>
+      </figure>
+    </div>
   {% endif %}
   <div class="article">
     {{ content }}
