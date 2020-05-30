@@ -36,11 +36,11 @@
        <figcaption> Listen to me reading the post:</figcaption>
         <audio
                controls
-               src="https://github.com/noonanhe/noonanhe.github.io/blob/master/_data/audio/Coronavirus-Blessings.mp3">
+               src="{{ page.audio_url }}">
           Your browser does not support the <code>audio</code> element.
         </audio>
     </figure>
-    <p>{{site.baseurl}}/{{ page.audio_url }}</p>
+    <p>{{ page.audio_url }}</p>
   {% endif %}
   <div class="article">
     {{ content }}
