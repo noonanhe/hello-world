@@ -1,6 +1,6 @@
 ---
 title: Dog Paintings
-published: true
+published: true  
 ---
 
 ### Meet Cookie and Pepper.
