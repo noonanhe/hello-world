@@ -5,7 +5,7 @@ published: true
 
 ### Meet Cookie and Pepper.
 
-![Both Dogs](/images/both_dogs_small.jpg)
+![Both Dogs](/images/both_dogs_small.jpg =100x20)
 
 These are my family's dogs. We rescued them from the shelter back in 2013. Because they are rescues, we don't really know
 what breed they are. The shelter said they were both black lab mixes of some sort.
