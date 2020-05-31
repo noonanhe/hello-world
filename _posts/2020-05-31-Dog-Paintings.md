@@ -5,7 +5,7 @@ published: true
 
 ### Meet Cookie and Pepper.
 
-![Both Dogs](images/both_dogs_small.jpg)
+![Both Dogs](/images/both_dogs_small.jpg)
 
 These are my family's dogs. We rescued them from the shelter back in 2013. Because they are rescues, we don't really know
 what breed they are. The shelter said they were both black lab mixes of some sort.
@@ -25,7 +25,7 @@ person. So once I got this portrait idea in my head I could not let it go. I pic
 
 Pepper's picture                     | Cookie's picture
 :----------------------------------: | :---------------------------------:
-![Pepper picture](images/pepper.JPG) | ![Cookie picture](images/cookie.JPG)
+![Pepper picture](/images/pepper.JPG) | ![Cookie picture](/images/cookie.JPG)
 
 I sketched on the canveses first, going through a whole eraser until I got them the way I wanted, then took forever trying to 
 paint black dogs and not just black blobs.
@@ -35,7 +35,7 @@ Guess it goes to show that if you put your mind to something you really can make
 
 Pepper's painting                                   | Cookie's painting
 :-------------------------------------------------: | :--------------------------------:
-![Pepper painting](images/pepper_and_painting.JPG)  | ![Cookie painting](images/cookie_and_painting.JPG)
+![Pepper painting](/images/pepper_and_painting.JPG)  | ![Cookie painting](/images/cookie_and_painting.JPG)
 
 I think I might make painting a new hobby now. It is very relaxing. I love painting and listening to a podcast at the same time.
 When you're done, you feel accomplished. It is like the same feeling I get when I finish a program. There is something about creating something
@@ -47,4 +47,4 @@ do that activity that you thought was outside of your abilities. If you think it
 You will probably have fun regardless of the outcome and really that is all that matters. Make some quarantine memories,
 explore new depths of your soul, go paint some dogs. 
 
-![Both paintings](images/both_paintings.JPG)
+![Both paintings](/images/both_paintings.JPG)
