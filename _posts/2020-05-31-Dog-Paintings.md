@@ -5,8 +5,7 @@ published: true
 
 ### Meet Cookie and Pepper.
 
-  <html>
-    <img src="images/both_dogs_small.jpg" width="64" height="64 class="mx-auto rounded-1 mb-3">
+```<img src="images/both_dogs_small.jpg" width="64" height="64 class="mx-auto rounded-1 mb-3">```
 
 [//]: <> (![Both Dogs](images/both_dogs_small.jpg))
 
