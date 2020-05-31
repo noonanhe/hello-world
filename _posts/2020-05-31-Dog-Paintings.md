@@ -1,6 +1,6 @@
 ---
 title: Dog Paintings
-published: false
+published: true
 ---
 
 ### Meet Cookie and Pepper.
@@ -47,4 +47,4 @@ do that activity that you thought was outside of your abilities. If you think it
 You will probably have fun regardless of the outcome and really that is all that matters. Make some quarantine memories,
 explore new depths of your soul, go paint some dogs. 
 
-![Both paintings]
+![Both paintings](images/both_paintings.JPG)
