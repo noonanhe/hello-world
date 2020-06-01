@@ -9,9 +9,7 @@
   <div class="text-gray mb-2 ws-normal">{{ post.date | date: "%b %d, %Y"}}</div>
   {% if post.description %}
     {{ post.description }}
-    <p> It's working </p>
   {% else %}
-    <p> It's not working </p>
     {{ post.content | truncatewords: 10 }}
   {% endif %}
 </div>
