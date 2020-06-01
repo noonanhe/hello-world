@@ -7,7 +7,7 @@
     </h1>
   </div>
   <div class="text-gray mb-2 ws-normal">{{ post.date | date: "%b %d, %Y"}}</div>
-  {% if description %}
+  {% if post.description %}
     {{ post.description }}
     <p> It's working </p>
   {% else %}
