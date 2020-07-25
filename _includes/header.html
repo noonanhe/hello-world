@@ -13,7 +13,6 @@
 {% if page.path contains '_posts' %}
   {% assign page_title = page.title %}
   {% if page.image %}
-    <meta property="og:image" content = "/images/how_women_rise.png">
     {% assign meta_image = page.image %}
   {% endif %}
   {% assign meta_description = page.content | strip_html | strip_newlines | xml_escape | truncate: 300 %}
