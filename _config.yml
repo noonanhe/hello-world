@@ -16,6 +16,7 @@ defaults:
     values:
       layout: "post"
       comments: true
+      image: images/how_women_rise.png
 
 projects:
   sort_by: pushed
